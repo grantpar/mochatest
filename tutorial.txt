@@ -1,0 +1,10 @@
+npm init
+npm install typescript mocha chai @types/mocha @types/chai ts-node --save-dev
+npm install typescript -g
+tsc --init
+npm install nyc --save-dev
+npm install sinon @types/sinon --save-dev
+npm install axios nock
+
+to open nyc results, open this file in google chrome
+/.test_report/lcov-report/index.html 

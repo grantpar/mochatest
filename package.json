@@ -1,0 +1,26 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "nyc mocha --timeout 30000 --require ts-node/register test/**.spec.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.7",
+    "@types/sinon": "^17.0.3",
+    "chai": "^4.3.7",
+    "mocha": "^10.6.0",
+    "nyc": "^17.0.0",
+    "sinon": "^18.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "nock": "^13.5.4"
+  }
+}

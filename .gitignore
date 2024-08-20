@@ -1,2 +1,2 @@
-.test_report/
-.nyc_output/
+.test_report/*
+.nyc_output/*

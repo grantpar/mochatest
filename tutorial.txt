@@ -8,3 +8,6 @@ npm install axios nock
 
 to open nyc results, open this file in google chrome
 /.test_report/lcov-report/index.html 
+
+add in package.json to see nyc table
+// "test": "nyc mocha --timeout 30000 --require ts-node/register test/**.spec.ts"
